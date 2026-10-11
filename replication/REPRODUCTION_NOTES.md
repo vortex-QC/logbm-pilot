@@ -22,7 +22,8 @@
 ## 四、入仓来源留痕 (2026-10-11)
 
 - `lean/Pilot.lean` = 工作文件 `DensityMath/LogBM/Pilot.lean` 的**路线 A 段** (L1-413,
-  件 1-16 完成态)。工作文件中另有一份路线 B 中间残稿 (§28 止损前形态, 编译不通过),
-  已被 `/tmp/probe10.final.b3done.lean` (B0-B3 终版) 取代, **未入仓**——轨迹以本条为证。
+  件 1-16 完成态)。工作文件中另有一份路线 B 中间残稿 (L414 起, 编译不通过; 推断为先于
+  probe9/probe10 独立线的早期尝试——mtime 19:09 早于 B 段 probe 线收官 22:46/23:59),
+  已被 `probe10.final.b3done.lean` (B0-B3 终版) 取代, **未入仓**——轨迹以本条为证。
 - `lean/Probe10_softVariance.lean` = `probe10.final.b3done.lean` 原样入仓 (703 行, B3 全量)。
 - 两件入仓前当日复验: `lake env lean` exit=0 零 error 零 sorry。
